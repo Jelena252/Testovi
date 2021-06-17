@@ -26,25 +26,11 @@ WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
+WebUI.openBrowser('')
+
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl('http://iteon.org/qa/01-trougao-v1/')
-
-WebUI.click(findTestObject('Object Repository/Page_/li_Raznostranian (sve tri stranice su razliite)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '3')
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '3')
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '3')
-
-WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_/label_Trougao je jednakostranian'))
-
-WebUI.openBrowser('')
-
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
 
 WebUI.closeBrowser()
 
@@ -52,19 +38,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://iteon.org/qa/01-trougao-v1/')
 
-WebUI.click(findTestObject('Object Repository/Page_/li_Raznostranian (sve tri stranice su razliite)'))
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '5')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_9f4979'), '3')
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '5')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_de46a7'), '3')
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '3')
+WebUI.setText(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_5324ef'), '7')
 
 WebUI.click(findTestObject('Object Repository/Page_/input_Jednakostranini trougao (sve tri stra_6bca0c'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_/label_Trougao je jednakostranian'))
-
-WebUI.openBrowser('')
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Object Repository/Page_/label_Trougao je jednakokraki'), 'Trougao je jednakokraki.')
 
